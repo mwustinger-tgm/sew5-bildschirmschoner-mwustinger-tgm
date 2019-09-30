@@ -1,6 +1,8 @@
 /**
  * Schneeflocke implementiert Runnable um durch einen Executor gestartet werden zu können.
  * Der Parameter xSize gibt die maximale Arealgröße an, damit die Schneflocke nicht aus dem Bild fliegt.
+ * @author Martin Wustinger
+ * @version 30-09-2019 (letzte Überarbeitung bevor Upload,(Kommentare))
  */
 class Schneeflocke(var x: Double, var area: Area): Runnable {
     var y = 0.0

@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="391fc305-9ff6-4a6e-8e25-f7b916541e23" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bildschirmschoner/Area.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bildschirmschoner/Area.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bildschirmschoner/AreaKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bildschirmschoner/AreaKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Area.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Area.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Schneeflocke.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Schneeflocke.kt" afterDir="false" />
     </list>

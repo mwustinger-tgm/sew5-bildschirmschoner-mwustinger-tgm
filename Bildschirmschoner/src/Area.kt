@@ -1,5 +1,11 @@
 import java.util.concurrent.*
 
+/**
+ * Startet und verwaltet mehrere Schneeflocken
+ * @link_to_Github https://github.com/mwustinger-tgm/sew5-bildschirmschoner-mwustinger-tgm.git
+ * @author Martin Wustinger
+ * @version 30-09-2019 (letzte Überarbeitung bevor Upload, (Kommentare))
+ */
 class Area(var anz: Int, var xSize: Int, var ySize:Int){
     var pool = Executors.newCachedThreadPool()
     var threads = ArrayList<Schneeflocke>()
@@ -11,7 +17,7 @@ class Area(var anz: Int, var xSize: Int, var ySize:Int){
             pool.submit(threads[i])
             println("Thread gestarted...")
         }
-        //Alle Threads warten auf das Signal vom Mainthread
+        //All Threads are waiting for the signal of the main Thread
         Thread.sleep(1000)
         flag=true
         println("Thread flag auf true gesetzt")
